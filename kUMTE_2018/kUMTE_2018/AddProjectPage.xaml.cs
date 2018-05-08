@@ -32,7 +32,7 @@ namespace kUMTE_2018
 	        }
 
 	        await DisplayAlert("Success", $"Project {TitleEntry.Text} successfully added", "Ok");
-	        await Navigation.PushAsync(new ProjectBrowsePage());
+	        await Navigation.PopAsync();
 	    }
 	}
 }

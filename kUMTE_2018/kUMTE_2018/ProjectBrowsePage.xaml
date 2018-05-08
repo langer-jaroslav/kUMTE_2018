@@ -11,7 +11,8 @@
     <ListView x:Name="MyListView"
             ItemsSource="{Binding Items}"
             ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
+            CachingStrategy="RecycleElement"
+            >
             
     <ListView.ItemTemplate>
         <DataTemplate>
