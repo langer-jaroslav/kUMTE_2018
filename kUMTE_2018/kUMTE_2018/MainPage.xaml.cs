@@ -16,7 +16,7 @@ namespace kUMTE_2018
 
 	    private void Browse_OnClicked(object sender, EventArgs e)
 	    {
-
+	        Navigation.PushAsync(new ProjectBrowsePage());
 	    }
     }
 }
