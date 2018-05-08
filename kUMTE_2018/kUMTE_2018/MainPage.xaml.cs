@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace kUMTE_2018
@@ -13,5 +9,14 @@ namespace kUMTE_2018
 		{
 			InitializeComponent();
 		}
-	}
+	    private void Setting_OnClicked(object sender, EventArgs e)
+	    {
+	        Navigation.PushAsync(new SettingPage());
+	    }
+
+	    private void Browse_OnClicked(object sender, EventArgs e)
+	    {
+
+	    }
+    }
 }
