@@ -17,7 +17,7 @@ namespace kUMTE_2018
     {
         public ObservableCollection<Project> Items { get; set; }
 
-        private string AuthKey = string.Empty;
+        public static string AuthKey { get; set; } = string.Empty;
 
         public ProjectBrowsePage()
         {
@@ -66,6 +66,11 @@ namespace kUMTE_2018
 
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
+        }
+
+        private void AddButton_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddProjectPage());
         }
     }
 }
