@@ -39,8 +39,9 @@ namespace kUMTE_2018
 	                var d = new AppSetting()
 	                {
 	                    AppName = "kUMTE_2018",
-	                    Author = "Jaroslav Langer"
-	                };
+	                    Author = "Jaroslav Langer",
+                        AuthKey = "2f6421653f8eb04e42492f94615d6b32daf343bc"
+                    };
 	                conn.Insert(d);
 	            }
 	        }
