@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Todoist.Net;
 using Todoist.Net.Models;
@@ -10,7 +7,7 @@ using Xamarin.Forms.Xaml;
 
 namespace kUMTE_2018
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class AddProjectPage : ContentPage
 	{
 		public AddProjectPage ()

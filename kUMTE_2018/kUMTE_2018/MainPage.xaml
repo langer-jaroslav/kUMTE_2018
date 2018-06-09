@@ -16,7 +16,7 @@
             <Button Text="Browse projects" 
                     Clicked="Browse_OnClicked"/>
             <Label x:Name="CoordLabel"
-                   Text="GPS:"
+                   Text="Waitting for Location service"
                    HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
