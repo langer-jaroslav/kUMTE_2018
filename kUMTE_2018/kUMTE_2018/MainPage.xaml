@@ -15,6 +15,9 @@
                    HorizontalOptions="Center" />
             <Button Text="Browse projects" 
                     Clicked="Browse_OnClicked"/>
+            <Label x:Name="CoordLabel"
+                   Text="GPS:"
+                   HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
